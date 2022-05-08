@@ -9,6 +9,9 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     print('second')
     print('try rebase local')
+    
+def after_big_commit():
+    print('After big commit')    
 
 
 # Press the green button in the gutter to run the script.

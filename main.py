@@ -17,5 +17,6 @@ if __name__ == '__main__':
     print('rebase local')
     print('rebase second git')
     print('try rebase git')
+    print('on git')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

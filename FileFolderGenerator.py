@@ -3,6 +3,8 @@ import shutil
 
 src_r = r'D:\Testing\Excel_worker\Excel_file\Ex'
 src_o = r'D:\Testing\Excel_worker\Excel_file\cy21hint_regression.xlsx'
+src_c = r'D:\Testing\Excel_worker\Excel_file\cy21.xlsx'
+
 
 class FileFolderGenerator:
     def __init__(self, path_from, path_to):
@@ -18,6 +20,8 @@ class FileFolderGenerator:
             newPath = os.path.join(self.path_to, new_file_name)
             shutil.copy(self.path_from, newPath)
             print('Finish')
+            print('Super Finish')
+
 
 worker = FileFolderGenerator(src_o, src_r)
 worker.generate_files(10)

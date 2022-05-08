@@ -15,5 +15,6 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     print('cnange in master')
     print('rebase local')
+    print('rebase second git')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
